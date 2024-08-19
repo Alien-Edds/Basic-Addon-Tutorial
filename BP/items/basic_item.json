@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "basic_addon:basic_item",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "apple",
+            "minecraft:display_name": {
+                "value": "Basic Item"
+            },
+            "minecraft:custom_components": [
+                "basic_addon:item_function"
+            ]
+        }
+    }
+}

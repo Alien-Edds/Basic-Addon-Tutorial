@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Basic Addon",
+        "description": "basic description",
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ],
+        "uuid": "456591ae-55da-4d96-94d1-fec1b8607ee4",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "48b74167-dfb6-43d1-92fd-0153dfd3bc6c",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "c7018ff9-7150-4329-ad75-fbd85f625902",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ]
+}
