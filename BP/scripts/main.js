@@ -16,7 +16,7 @@ world.beforeEvents.worldInitialize.subscribe((data) => {
     blockComponentRegistry.registerCustomComponent("basic_addon:block_function", {
         onPlayerInteract: (data) => {
             const block = data.block;
-            const state = block.permutation.getState("basic_addon:state_1");
+            const state = block.permutation.getState('basic_addon:state_1');
             if (state === undefined)
                 return;
             switch (state) {
